@@ -1,0 +1,225 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.active {
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+body , html {
+    overflow-x: hidden;
+}
+
+/*Navbar*/
+.navbar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+ .nav-links {
+display: flex;
+align-items: center;
+}
+
+ .nav-links li {
+    margin: 0 30px;
+ }
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./photo-1472791108553-c9405341e398.avif);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background:#fc036b ;
+    border-radius: 30px;
+    color: whitesmoke; 
+    font-weight: bold;
+}
+
+/* Event */
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.tittle {
+    text-align: center;
+    font-size: 4vmin;
+    color: #49497e;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col img {
+    width: 80%;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .events .row {
+  margin-top: 50px;
+ }
+
+ .h4 {
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+ }
+ .p {
+    color: #7c7c7c;
+    padding: 0px 40px;
+ }
+
+ .events .ctn {
+    margin-top: 30px;
+ }
+
+
+ .explore {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./photo-1575986767340-5d17ae767ab0.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+ }
+
+ .explore-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .explore-content h1 {
+    font-size: 7vmin;
+ }
+
+ .explore-content .line {
+    margin-bottom: 50px;
+ }
+
+ .explore-content p {
+    color: rgb(221,221,221);
+ }
+ .explore-content .ctn {
+    margin-top: 40px;
+ }
+.content-col {
+    width: 40%;
+}
+.image-col {
+    width: 60%;
+}
+
+ .tours .img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+ }
+
+ .img-gallery img {
+   max-width: 300px;
+    margin: 10px;
+ }
+
+ .content-col h1 {
+    font-size: 7vmin;
+    color: #484872;
+ }
+
+ .content .col .line {
+    margin-left: -1px;
+ }
+
+ .content-col p {
+    padding: 0;
+    margin: 30px auto;
+ }
+
+ .content-col .ctn {
+    margin-left: -100px;
+ }
+
+
+ .footer {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0%;
+    background: #484872;
+    text-align: center;
+ }
+
+
+ .footer p {
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+ }
